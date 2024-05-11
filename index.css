@@ -1,0 +1,74 @@
+:root {
+  --bgcolor: rgb(59, 36, 94, 0.5); 
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/3643768.jpg");
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+header {
+  display: flex;
+}
+header > img {
+  margin-left: 20px;
+}
+header > nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: auto;
+}
+header > nav > ul {
+  display: flex;
+  margin-right: 100px;
+}
+header > nav > ul > menu {
+  margin: 0 50px;
+}
+header > nav > ul > menu > a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+header > nav > ul > menu > a:hover {
+  text-decoration: underline;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+main > .main-section-1 {
+  display: flex;
+  align-items: center;
+}
+main > .main-section-1 > .landing-message {
+  padding: 50px;
+  min-width: 55rem;
+  margin: 10% 0 10% 10%;
+}
+main > .main-section-1 > .landing-message > h1 {
+  font-size: 50px;
+}
+main > .main-section-1 > .landing-image {
+  margin: 10% 5%;
+}
+main > .main-section-2 {
+  background-color: var(--bgcolor);
+  padding-top: 3%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main > .main-section-2 > .sponsors {
+  margin: 10px;
+}
+main > .main-section-2 > .sponsors > ul {
+  display: flex;
+  justify-content: space-between;
+}
